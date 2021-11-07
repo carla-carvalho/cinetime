@@ -1,7 +1,29 @@
-body{
-    background-color: rgb(196, 196, 160);
+html, body {
+    height: 100%;
+}
+body {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
+main {
+    
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+header, footer {
+    width: 100%;
+}
+
+body{
+    background-image: url('/frontend/img/cine.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 .card-title{
     color: aliceblue;
 }
@@ -12,4 +34,9 @@ body{
     padding: 0;
 
 
+}
+
+
+footer{
+    position: absolute;
 }

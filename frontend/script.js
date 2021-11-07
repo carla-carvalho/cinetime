@@ -40,7 +40,7 @@ const getFilmes = async () => {
                 <br>
                 <br>
                 <div>
-                    <button class="btn btn-success" onclick="editFilme('${filme.id}')">Editar</button>
+                    <button class="btn btn-outline-light" onclick="editFilme('${filme.id}')">Editar</button>
                     <button class="btn btn-danger" onclick="deleteFilme('${filme.id}')">Excluir</button>
                     
                 </div>
